@@ -1,0 +1,27 @@
+@import "functions";
+@import "variables";
+// @import "utilities";
+
+// Helpers
+@import "../../libs/wowjs/css/animate.css";
+
+@import "_mixin/fonts.scss";
+@import "_mixin/breakpoints";
+@import "_mixin/flexbox.scss";
+// Layout
+@import "_mixin/grid";
+@import "grid";
+
+// Component
+@import "_components/normalize";
+@import "_components/base";
+@import "_components/header";
+@import "_components/footer";
+// Page
+@import "_pages/home";
+@import "_pages/access";
+@import "_pages/clinic";
+@import "_pages/service";
+@import "_pages/staff";
+
+
