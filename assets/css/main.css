@@ -2050,7 +2050,7 @@ body.show-menu {
         margin: -12px 0 0 0 !important; }
       @media (max-width: 376px) {
         .home-concept .el__content p {
-          min-height: 125%; } }
+          min-height: 122%; } }
       @media (max-width: 340px) {
         .home-concept .el__content p {
           min-height: 144%; } }
