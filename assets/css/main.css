@@ -1988,7 +1988,8 @@ body.show-menu {
     margin-bottom: 20px; }
   .home-info .el__box {
     padding: 0px 15px 16px 0px;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     height: 215px;
     margin-bottom: 20px;
     /* width */
@@ -2040,8 +2041,7 @@ body.show-menu {
       color: #fff;
       font-family: 'YuMinchoDemi';
       letter-spacing: 5px;
-      margin: 0;
-      line-height: 55px;
+      margin: 0 10px 0 0 !important;
       text-align: left;
       text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.57);
       min-height: 110%; }
@@ -2352,7 +2352,7 @@ body.show-menu {
       color: #1A1A1A; }
     .home-clinic .el__info td {
       font-size: 16px;
-      color: #1A1A1A; }
+      color: #1A1A1A !important; }
   .home-clinic .el__content {
     background: #00A79B;
     padding: 20px; }
@@ -2382,7 +2382,7 @@ body.show-menu {
     margin-bottom: 10px; }
   .home-clinic .el__excerpt {
     font-size: 16px;
-    color: #000; }
+    color: #000 !important; }
 
 .home-facilities {
   position: relative;
